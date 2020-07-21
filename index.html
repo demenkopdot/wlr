@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Whole Lotta Red Announce</title>
+<style>
+body {
+  background-color: black;
+}
+a {
+  font-size: 36px;
+  position: absolute;
+  color: white;
+  left: 50%;
+  margin-right: -50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none
+}
+a:hover{
+  border-bottom: 1px dashed orange
+}
+</style>
+</head>
+
+<body onload='play_stuff()'>
+<audio autoplay hidden id='wlr'>
+<source src='wlr.mp3' type="audio/mpeg" />
+</audio>
+<a onclick='play_stuff()'>pussy nigga itachi</a>
+<script>
+function play_stuff () {
+  document.getElementById('wlr').play();
+}
+</script>
+</html>
