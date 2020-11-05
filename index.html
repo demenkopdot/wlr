@@ -17,19 +17,20 @@ body {
   background-color: black;
 }
 
-a {
+h1 {
   font-family: 'Torus';
   font-size: 36px;
   position: absolute;
   color: white;
+  margin: 0;
   left: 50%;
   margin-right: -50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  text-decoration: none
+  text-decoration: none;
 }
 
-a:hover {
+h1:hover {
   border-bottom: 1px dashed orange;
 }
 </style>
@@ -39,7 +40,7 @@ a:hover {
 <audio autoplay hidden id='wlr'>
 <source src='wlr.mp3' type='audio/mpeg' />
 </audio>
-<a onclick='play_stuff()'>pussy nigga itachi</a>
+<h1 onclick='play_stuff()'>pussy nigga itachi</h1>
 <script>
 function play_stuff () {
   document.getElementById('wlr').play();
